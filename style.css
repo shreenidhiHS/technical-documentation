@@ -1,0 +1,64 @@
+#main-doc{
+    height: 100%;
+    width: 100%;
+}
+#navbar{
+     position: fixed;
+    width:300px;
+    height: 100%;
+    text-align: center;
+    background-color: aqua;
+
+}
+.technical-doc-writing{
+    width: 80%;
+    background-color: azure;
+    margin-left: 320px;
+}
+header{
+    font-weight: bold;
+    font-size: 26px;
+
+
+}
+p{
+    font-size: 18px;
+}
+.nav-link{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+}
+#navbar{
+    animation-name: color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes color {
+    0% {
+        background-color:rgb(107, 231, 224);
+    }
+    25% {
+         background-color:rgb(234, 104, 104);
+
+    }
+    50% {
+        background-color:rgb(228, 242, 104);
+    }
+    100% {
+        background-color:rgb(107, 231, 224);
+    }
+}
+a{
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+pre{
+    
+    width: 80%;
+}
